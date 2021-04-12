@@ -1,0 +1,18 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+
+#iOS包管理工具
+gem 'cocoapods', '1.10.1'
+
+# 二进制插件 提升编译速度
+gem 'cocoapods-binary', git: 'https://github.com/muukii/cocoapods-binary.git'
+
+# 自动化插件
+gem 'fastlane'
+plugins_path = File.join(File.dirname(__FILE__), 'fastlane', 'Pluginfile')
+eval_gemfile(plugins_path) if File.exist?(plugins_path)
+
