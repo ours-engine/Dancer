@@ -126,10 +126,7 @@ only_rules:
 
 excluded:
   - Pods
-  - "./MomentsTests"
-  - "./MomentsUITests"
-  - "./Moments/MomentsTests"
-  - "./Moments/MomentsUITests"
+  - Dev-Pods/CTNet
 
 custom_rules:
   no_hardcoded_strings:

@@ -41,7 +41,7 @@ platform :ios do
   desc "Sort Xcode project files"
   lane :sort_files do
     puts("Sort the files for the Xcode project")
-    sh "../scripts/sort-Xcode-project-file.pl ../Moments/Moments.xcodeproj"
+    sh "../../Dancer-Script/sort-Xcode-project-file.pl ../Dancer.xcodeproj"
   end
 
   desc "Prepare for a pull request"
@@ -53,8 +53,8 @@ platform :ios do
   desc "Build development app"
   lane :build_dev_app do
     puts("Build development app")
-    gym(scheme: "Moments",
-      workspace: "Moments.xcworkspace",
+    gym(scheme: "Dancer",
+      workspace: "Dancer.xcworkspace",
       configuration: "Debug",
       xcargs: "-allowProvisioningUpdates")
   end

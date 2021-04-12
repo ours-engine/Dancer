@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		44674E5F2624672900A51DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44674E5E2624672900A51DFF /* AppDelegate.swift */; };
-		44674E612624672900A51DFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44674E602624672900A51DFF /* SceneDelegate.swift */; };
 		44674E632624672900A51DFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44674E622624672900A51DFF /* ViewController.swift */; };
 		44674E662624672900A51DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44674E642624672900A51DFF /* Main.storyboard */; };
 		44674E682624672B00A51DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44674E672624672B00A51DFF /* Assets.xcassets */; };
@@ -22,7 +21,6 @@
 		1AA44A5D8F4173F4CA174F1B /* Pods-Dancer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dancer.debug.xcconfig"; path = "Target Support Files/Pods-Dancer/Pods-Dancer.debug.xcconfig"; sourceTree = "<group>"; };
 		44674E5B2624672900A51DFF /* Dancer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dancer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44674E5E2624672900A51DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44674E602624672900A51DFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		44674E622624672900A51DFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44674E652624672900A51DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44674E672624672B00A51DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,12 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				44674E5E2624672900A51DFF /* AppDelegate.swift */,
-				44674E602624672900A51DFF /* SceneDelegate.swift */,
-				44674E622624672900A51DFF /* ViewController.swift */,
-				44674E642624672900A51DFF /* Main.storyboard */,
 				44674E672624672B00A51DFF /* Assets.xcassets */,
-				44674E692624672B00A51DFF /* LaunchScreen.storyboard */,
 				44674E6C2624672B00A51DFF /* Info.plist */,
+				44674E692624672B00A51DFF /* LaunchScreen.storyboard */,
+				44674E642624672900A51DFF /* Main.storyboard */,
+				44674E622624672900A51DFF /* ViewController.swift */,
 			);
 			path = Dancer;
 			sourceTree = "<group>";
@@ -87,10 +84,10 @@
 		AD7F02E41966C1DF29D24259 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1AA44A5D8F4173F4CA174F1B /* Pods-Dancer.debug.xcconfig */,
-				7C68B32847665E3527367602 /* Pods-Dancer.release.xcconfig */,
 				15B55C998138E42958DF169C /* Pods-Dancer.appstore.xcconfig */,
+				1AA44A5D8F4173F4CA174F1B /* Pods-Dancer.debug.xcconfig */,
 				780714AC58A7ACD222D12D05 /* Pods-Dancer.internal.xcconfig */,
+				7C68B32847665E3527367602 /* Pods-Dancer.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,8 +152,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44674E6B2624672B00A51DFF /* LaunchScreen.storyboard in Resources */,
 				44674E682624672B00A51DFF /* Assets.xcassets in Resources */,
+				44674E6B2624672B00A51DFF /* LaunchScreen.storyboard in Resources */,
 				44674E662624672900A51DFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,9 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44674E632624672900A51DFF /* ViewController.swift in Sources */,
 				44674E5F2624672900A51DFF /* AppDelegate.swift in Sources */,
-				44674E612624672900A51DFF /* SceneDelegate.swift in Sources */,
+				44674E632624672900A51DFF /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
